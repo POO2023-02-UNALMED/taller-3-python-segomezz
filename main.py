@@ -5,6 +5,7 @@ from televisores.control import Control
 if __name__ == "__main__":
     marca1 = Marca("Semsung")
     marca2 = Marca("Lj")
+    print(marca1.getNombre())
 
     tv1 = TV(marca1, True)
     tv2 = TV(marca2, False)
