@@ -1,3 +1,4 @@
+
 from .tv import TV
 class Control:
     def __init__(self):
@@ -23,9 +24,10 @@ class Control:
         if self.tv.getEstado():
             self.tv.volumenDown()
     def setCanal(self,nuevoCanal):
-        TV.setCanal=nuevoCanal
+        self.tv.setCanal(nuevoCanal)
+        print("hola")
     def setVolumen(self,nuevoVolumen):
-        TV.setVolumen=nuevoVolumen
+        self.tv.setVolumen(nuevoVolumen)
     def setTv(self,tv):
         self._tv=tv
     def getTv(self):
