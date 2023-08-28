@@ -31,4 +31,4 @@ class Control:
     def setTv(self,tv):
         self._tv=tv
     def getTv(self):
-        return self._tv
+        return self.tv
