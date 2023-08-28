@@ -29,4 +29,4 @@ class Control:
     def setTv(self,tv):
         self._tv=tv
     def getTv(self):
-        return self.tv
+        return self._tv
