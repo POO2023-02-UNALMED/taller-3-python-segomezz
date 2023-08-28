@@ -26,5 +26,5 @@ class Control:
         TV.setVolumen=nuevoVolumen
     def setTv(self,tv):
         self._tv=tv
-    def getTv(self,tv):
+    def getTv(self):
         return tv
