@@ -13,7 +13,7 @@ class TV:
     def getNumTV(cls):
         return cls.numTV  
     @classmethod 
-    def setNombre(cls,numTV):
+    def setNumTV(cls,numTV):
         cls.numTV=numTV
     def setMarca(self,Marca):
        self._Marca=Marca 
