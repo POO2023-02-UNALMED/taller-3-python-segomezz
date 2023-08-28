@@ -1,3 +1,4 @@
+
 class TV:
     numTV=0
     def __init__(self,Marca,estado):
@@ -14,10 +15,10 @@ class TV:
     @classmethod 
     def setNombre(cls,numTV):
         cls.numTV=numTV
+    def setMarca(self,Marca):
+       self._Marca=Marca 
     def getMarca(self):
-        return  self._marca
-    def setMarca(self,marca):
-       self._Marca=marca 
+        return self._Marca
     def getEstado(self):
         return self._estado
     def setCanal(self,canal):

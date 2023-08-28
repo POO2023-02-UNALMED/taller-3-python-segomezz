@@ -1,3 +1,4 @@
+
 from televisores.tv import TV
 from televisores.marca import Marca
 from televisores.control import Control
@@ -25,6 +26,5 @@ if __name__ == "__main__":
 
     print(tv2.getCanal())
     print(tv1.getPrecio())
-    print(tv1.getMarca())
     print(tv1.getMarca().getNombre())
     print(tv1.getCanal())
