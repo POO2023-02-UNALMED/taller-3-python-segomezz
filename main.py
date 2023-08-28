@@ -6,7 +6,7 @@ from televisores.control import Control
 if __name__ == "__main__":
     marca1 = Marca("Semsung")
     marca2 = Marca("Lj")
-    #print(marca1.getNombre())
+    print(marca1.getNombre())
 
     tv1 = TV(marca1, True)
     tv2 = TV(marca2, False)
@@ -24,13 +24,8 @@ if __name__ == "__main__":
     control1.canalUp()
     control1.volumenUp()
 
-    #print(tv2.getCanal())
-    #print(tv1.getPrecio())
-    #print(tv1.getMarca().getNombre())
-    #print(tv1.getCanal())
-marca = Marca("Mitorola")
-      
-tv5 = TV(marca, True)
-tv5.setVolumen(0)
-tv5.volumenDown()
-print(tv5.getVolumen())
+    print(tv2.getCanal())
+    print(tv1.getPrecio())
+    print(tv1.getMarca().getNombre())
+    print(tv1.getCanal())
+
