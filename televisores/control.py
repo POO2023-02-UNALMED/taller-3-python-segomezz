@@ -25,7 +25,6 @@ class Control:
             self.tv.volumenDown()
     def setCanal(self,nuevoCanal):
         self.tv.setCanal(nuevoCanal)
-        print("hola")
     def setVolumen(self,nuevoVolumen):
         self.tv.setVolumen(nuevoVolumen)
     def setTv(self,tv):
